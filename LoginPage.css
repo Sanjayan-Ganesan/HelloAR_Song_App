@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the body height to 100% of the viewport height */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+  }
+  
+  .container {
+    width: 420px;
+    height: auto;
+    margin: auto;
+  }
+  
+  .text-sign-in {
+    color: var(--Primary-Color, #552583);
+    text-align: left;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  
+  .sub-text-sign-in {
+    color: var(--text-primary, #101920);
+    /* small Text */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    text-align: justify;
+    line-height: 18px;
+  }
+
+  .phone-number-input-box {
+      height: 50px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border: 1px solid var(--Tertiary-Color, #D0D3D4);
+      background: var(--background-white, #FFF);
+      margin-bottom: 25px;
+      color: var(--text-primary, #101920);
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+
+  .sign-in-button {
+      border-radius: 12px;
+      background: var(--Primary-Color, #552583);
+      height: 50px;
+      color: var(--text-white, #FFF);
+      text-align: center;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      cursor: pointer;
+  }
+  

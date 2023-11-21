@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the body height to 100% of the viewport height */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+  }
+  
+  .container {
+    width: 420px;
+    height: auto;
+    margin: auto;
+  }
+
+  .otp-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .otp-input-box{
+    display: flex;
+    gap:33px;
+  }
